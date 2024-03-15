@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+<title>Create product list with CSS3</title>
+<style type="text/css">
+.ProductDetails {display: none;}
+.Student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.StudentName {font-weight: bold;}
+.StudentCode {font-style:italic;}
+.StudentCode::before {content: " - ";}
+.Student {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Student:hover .ProductDetails {display: block;}
+</style>
+</head>
+<body>
+ <div>
+    <div class="Student">
+        <img src="c:\Users\Nguyễn Anh Thư\Pictures\LuongThiPhuongLoan.jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Lương Thị Phương Loan</span>
+            <span class="StudentCode">2305458</span>
+        </div>
+    </div>
+    <div class="Student">
+        <img src="c:\Users\Nguyễn Anh Thư\Pictures\NguyenAnhThu.jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Nguyễn Anh Thư</span>
+            <span class="StudentCode">2307025</span>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
