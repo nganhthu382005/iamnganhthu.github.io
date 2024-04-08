@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcf9f9;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #dfeecc;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.btnThem{
+    background-color: #b4e4b7;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.item{
+    width: 150px;
+}
+input{
+    border-radius: 10px;
+    margin-left: 20px; 
+    width: 300px;
+}
